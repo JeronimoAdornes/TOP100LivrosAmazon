@@ -33,3 +33,6 @@ for row in df_reviews_f.values:
     message = st.chat_message(f"{row[4]}")
     message.write(f"**{row[2]}**")
     message.write(row[5])
+
+    # Estudar melhor este código para otimizar o mesmo
+    # isso
